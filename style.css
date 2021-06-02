@@ -1,0 +1,93 @@
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    /* box-shadow: 5px 5px 50px gray; */
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+padding-bottom: 40px;
+background-color: #5bc0de;
+color: white;
+padding-top: 10px;
+}
+@keyframes identifier {
+    0%{box-shadow: 1px 1px 50px red;}
+    12.5%{box-shadow: 1px 1px 50px orange;}
+    25%{box-shadow: 1px 1px 50px yellow;}
+    37.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);}
+    50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);}
+    62.5%{box-shadow: 1px 1px 50px blue;}
+    75%{box-shadow: 1px 1px 50px purple;}
+    87.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);}
+    100%{box-shadow: 1px 1px 50px red;}
+}
+@keyframes identifier2 {
+    0%{box-shadow: 1px 1px 50px red;}
+    12.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);}
+    25%{box-shadow: 1px 1px 50px purple;}
+    37.5%{box-shadow: 1px 1px 50px blue;}
+    50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);}
+    62.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);}
+    75%{box-shadow: 1px 1px 50px yellow;}
+    87.5%{box-shadow: 1px 1px 50px orange;}
+    100%{box-shadow: 1px 1px 50px red;}
+}
+.heading_div{
+    background-color: gray;
+    float: none;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 3px black solid;
+    animation-name: identifier2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.heading_div{
+    background-color: gray;
+    float: none;
+    padding-top: 25px;
+    border-radius: 20px;
+    border: 3px black solid;
+    animation-name: identifier2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: black;
+    height: 150px;
+}
+.heading_div2{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 500px;
+background-color: #f0ad4e;
+color:black;
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    line-height: 3;
+    margin-top: 25px;
+    font-size: 20px;
+    color: silver;
+}
+canvas{
+    border: 3px black solid;
+    margin-top:160px;
+    animation-name: identifier2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.result_para{
+    background-color:#5bc0de;
+    font-size: 20px;
+    width: 350px;
+    color: white;
+
+}
+#accuracy{
+margin-top: -10px;
+}
